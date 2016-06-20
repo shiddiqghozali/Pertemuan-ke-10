@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Masukkan jumlah bilangan : ";
+    cin>>n;
+    int A[n];
+    for (int c=0; c<n; c++) {
+        cout<<"Nilai ke- "<<c+1<<" = ";
+        cin>>A[c];
+    }
+    cout<<"Nilai yang Anda Inputkan : ";
+    for (int c=0; c<n; c++) {
+    cout<<A[c]<<",";
+    }
+    return 0;
+}
