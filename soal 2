@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, A[n];
+    cout<<"Masukkan jumlah bilangan : ";
+    cin>>n;
+    for (int c=0; c<n; c++) {
+        cout<<"Nilai ke- "<<c<<" = ";
+        cin>>A[c];
+    }
+    return 0;
+}
